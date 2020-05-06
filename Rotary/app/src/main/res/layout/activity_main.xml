@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/description"
+        android:paddingBottom="160dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+
+        />
+
+    <ImageView
+        android:contentDescription="@string/this_is_the_logo_of_the_business"
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="78dp"
+        android:src="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:paddingTop="10dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:contentDescription="@string/description"
+        android:id="@+id/Company_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BIG BASKET"
+        android:layout_alignBottom="@id/logo"
+        android:layout_alignParentBottom="true"
+        android:paddingTop="180dp"
+        android:paddingBottom="200dp"
+        android:paddingLeft="120dp"
+        android:textSize="28sp"
+        android:textColor="#000000"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description:  Bigbasket.com (Innovative Retail Concepts Private Limited) is India’s largest online food and grocery store. With over 18,000 products and over a 1000 brands in our catalogue you will find everything you are looking for. Right from fresh Fruits and Vegetables, Rice and Dals, Spices and Seasonings to Packaged products, Beverages, Personal care products, Meats – we have it all."
+        android:layout_alignBottom="@id/Company_name"
+        android:paddingBottom="90dp"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Us:"
+        android:layout_alignBottom="@id/description"
+        android:paddingBottom="60dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/supermarket_grocery_supplies_pvt_ltd_2nd_floor_fairway_business_park_embassy_golf_link_challaghatta_bangalore_karnataka_560071_tel_1860_123_1000"
+        android:layout_alignBottom="@id/description"
+        android:paddingLeft="10dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="10dp"
+        android:textStyle="italic"/>
+
+
+</RelativeLayout>
